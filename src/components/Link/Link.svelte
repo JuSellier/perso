@@ -18,6 +18,10 @@
     border-radius: 2px;
     background: var(--clr-gradient-1);
     font-size: var(--size-h6);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   p {
@@ -26,6 +30,6 @@
 </style>
 
 <section class="top">
-  <a href={url} rel="external" class="mouse-target">{anchor}</a>
+  <a href={url} rel="external" class="mouse-target">{anchor} <span>></span></a>
   <p>{description}</p>
 </section>
