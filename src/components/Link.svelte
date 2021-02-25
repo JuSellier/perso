@@ -14,7 +14,7 @@
   a {
     padding: 5px 10px;
     /* box-shadow: 0 0 0 1px var(--clr-bg-dim); */
-    border-radius: 50px;
+    border-radius: 2px;
     max-width: max-content;
     background: var(--clr-gradient-1);
   }
