@@ -1,5 +1,6 @@
 <script>
-	import Link from "./components/Link.svelte";
+	import Link from "./components/Link/Link.svelte";
+	import WavingHand from "./components/WavingHand/WavingHand.svelte";
 	import { links } from "./utils/links";
 </script>
 
@@ -23,21 +24,17 @@
 
 	section.links {
 		padding: 1rem 0;
-		display: grid;
-		align-items: center;
-		grid-template-columns: 1fr;
-		row-gap: 20px;
-		column-gap: 20px;
-	}
-	@media (min-width: 500px) {
-		section.links {
-			grid-template-columns: auto 1fr;
-		}
+		display: flex;
+		flex-direction: column;
+		row-gap: 2rem;
 	}
 </style>
 
 <main class="contain">
-	<h1>Hi, I'm Julien 👋</h1>
+	<h1>
+		Hi, I'm Julien
+		<WavingHand />
+	</h1>
 	<p class="intro">For now, I just use this website to share some links.</p>
 	<section class="links">
 		{#each links as link}
