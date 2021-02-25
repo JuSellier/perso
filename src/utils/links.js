@@ -7,8 +7,12 @@ class Link {
 }
 
 export const links = [
-  new Link("LinkedIn", "My LinkedIn profile", "https://foxidev-io.netlify.app"),
-  new Link("GitHub", "My GitHub profile", "https://foxidev-io.netlify.app"),
+  new Link(
+    "LinkedIn",
+    "My LinkedIn profile",
+    "https://www.linkedin.com/in/jsellier/"
+  ),
+  new Link("GitHub", "My GitHub profile", "https://github.com/JuSellier"),
   new Link(
     "FoxiDev.io",
     "Web development services (website is not yet fully functional)",
