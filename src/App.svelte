@@ -21,10 +21,6 @@
 		color: var(--clr-txt-dim);
 	}
 
-	h2 {
-		margin-bottom: 1rem;
-	}
-
 	section.links {
 		padding: 1rem 0;
 		display: grid;
@@ -43,8 +39,6 @@
 <main class="contain">
 	<h1>Hi, I'm Julien 👋</h1>
 	<p class="intro">For now, I just use this website to share some links.</p>
-
-	<h2>Explore my links below.</h2>
 	<section class="links">
 		{#each links as link}
 			<Link {...link} />
