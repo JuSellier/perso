@@ -20,11 +20,6 @@ export const links = [
     "https://www.linkedin.com/in/jsellier/"
   ),
   new Link(
-    "FoxiDev.io",
-    "Web development services (website is not yet fully functional)",
-    "https://foxidev-io.netlify.app"
-  ),
-  new Link(
     "Surprise?",
     "Just a surprise link, because everybody likes surprises...",
     "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
