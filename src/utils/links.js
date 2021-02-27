@@ -9,7 +9,7 @@ class Link {
 export const links = [
   new Link(
     "SvelteIcons.dev",
-    "Svelte Icon Explorer",
+    "Explorer for the svelte-icons library",
     "https://svelteicons.dev"
   ),
   new Link("NeoCraft.app", "Algorithmic art project", "https://neocraft.app"),
