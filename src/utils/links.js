@@ -15,6 +15,11 @@ export const links = [
   new Link("NeoCraft.app", "Algorithmic art project", "https://neocraft.app"),
   new Link("GitHub", "My GitHub profile", "https://github.com/JuSellier"),
   new Link(
+    "Colors...",
+    "Just some color palettes",
+    "https://colors.jusellier.com"
+  ),
+  new Link(
     "LinkedIn",
     "My LinkedIn profile",
     "https://www.linkedin.com/in/jsellier/"
