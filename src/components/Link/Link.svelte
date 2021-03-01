@@ -30,6 +30,10 @@
 </style>
 
 <section class="top">
-  <a href={url} rel="external" class="mouse-target">{anchor} <span>></span></a>
+  <a
+    href={url}
+    rel="noreferrer"
+    target="_blank"
+    class="mouse-target">{anchor}<span>{'>'}</span></a>
   <p>{description}</p>
 </section>
