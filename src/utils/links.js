@@ -1,4 +1,4 @@
-class Link {
+export class Link {
   constructor(anchor, description, url) {
     this.anchor = anchor;
     this.description = description;

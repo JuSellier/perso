@@ -1,0 +1,11 @@
+{
+  "home_h1": "Hi, I'm Julien",
+  "home_description": "For now, I just use this website to share some links.",
+
+  "link_description_svelteicons": "Explorer for the svelte-icons library.",
+  "link_description_neocraft": "Algorithmic art project.",
+  "link_description_github": "My GitHub profile.",
+  "link_description_colors": "Just some color palettes.",
+  "link_description_linkedin": "My LinkedIn profile.",
+  "link_description_surprise": "Just a surprise link, because everybody likes surprises..."
+}

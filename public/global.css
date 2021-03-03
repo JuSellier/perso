@@ -115,6 +115,7 @@ p {
 a {
   text-decoration: none;
   cursor: pointer;
+  outline-color: var(--clr-txt);
 }
 a:hover {
   text-decoration: underline;
@@ -124,6 +125,7 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+  outline-color: var(--clr-1);
 }
 button:disabled {
   cursor: not-allowed;

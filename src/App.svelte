@@ -2,6 +2,9 @@
 	import Link from "./components/Link/Link.svelte";
 	import WavingHand from "./components/WavingHand/WavingHand.svelte";
 	import { links } from "./utils/links";
+	import { _ } from "svelte-i18n";
+	import LangPicker from "./components/LangPicker/LangPicker.svelte";
+	import Footer from "./components/Footer/Footer.svelte";
 </script>
 
 <style>
@@ -32,13 +35,42 @@
 
 <main class="contain">
 	<h1>
-		Hi, I'm Julien
+		{$_('home_h1')}
 		<WavingHand />
 	</h1>
-	<p class="intro">For now, I just use this website to share some links.</p>
+
+	<p class="intro">{$_('home_description')}</p>
+
 	<section class="links">
-		{#each links as link}
+		<Link
+			anchor="SvelteIcons.dev"
+			description={$_('link_description_svelteicons')}
+			url="https://svelteicons.dev" />
+		<Link
+			anchor="NeoCraft.app"
+			description={$_('link_description_neocraft')}
+			url="https://neocraft.app" />
+		<Link
+			anchor="GitHub"
+			description={$_('link_description_github')}
+			url="https://github.com/JuSellier" />
+		<Link
+			anchor="Colors..."
+			description={$_('link_description_colors')}
+			url="https://colors.jusellier.com" />
+		<Link
+			anchor="LinkedIn"
+			description={$_('link_description_linkedin')}
+			url="https://www.linkedin.com/in/jsellier/" />
+		<Link
+			anchor="Surprise?"
+			description={$_('link_description_surprise')}
+			url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+
+		<!-- {#each links as link}
 			<Link {...link} />
-		{/each}
+		{/each} -->
 	</section>
 </main>
+
+<Footer />

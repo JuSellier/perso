@@ -1,0 +1,12 @@
+{
+  "home_h1": "Salut, moi c'est Julien",
+  "home_description": "Pour l'instant j'utilise ce site pour partager quelques liens.",
+  "langpicker_title": "Changer de langue.",
+
+  "link_description_svelteicons": "Explorateur pour la librairie svelte-icons.",
+  "link_description_neocraft": "Projet d'art algorithmique.",
+  "link_description_github": "Mon profile GitHub.",
+  "link_description_colors": "Juste des palettes de couleurs.",
+  "link_description_linkedin": "Mon profile LinkedIn.",
+  "link_description_surprise": "Juste un lien 'surprise', parce que tout le monde aime les surprises..."
+}
