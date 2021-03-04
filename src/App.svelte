@@ -43,21 +43,25 @@
 
 	<section class="links">
 		<Link
-			anchor="SvelteIcons.dev"
-			description={$_('link_description_svelteicons')}
-			url="https://svelteicons.dev" />
-		<Link
 			anchor="NeoCraft.app"
 			description={$_('link_description_neocraft')}
 			url="https://neocraft.app" />
 		<Link
+			anchor="Colors."
+			description={$_('link_description_colors')}
+			url="https://colors.jusellier.com" />
+		<Link
+			anchor="SvelteIcons.dev"
+			description={$_('link_description_svelteicons')}
+			url="https://svelteicons.dev" />
+		<Link
+			anchor="TheoMercere.com"
+			description={$_('link_description_theomrcr')}
+			url="https://theomercere.com" />
+		<Link
 			anchor="GitHub"
 			description={$_('link_description_github')}
 			url="https://github.com/JuSellier" />
-		<Link
-			anchor="Colors..."
-			description={$_('link_description_colors')}
-			url="https://colors.jusellier.com" />
 		<Link
 			anchor="LinkedIn"
 			description={$_('link_description_linkedin')}
