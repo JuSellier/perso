@@ -43,6 +43,10 @@
 
 	<section class="links">
 		<Link
+			anchor="RecordEye.fr"
+			description={$_('link_description_recordeye')}
+			url="https://recordeye.fr" />
+		<Link
 			anchor="NeoCraft.app"
 			description={$_('link_description_neocraft')}
 			url="https://neocraft.app" />
